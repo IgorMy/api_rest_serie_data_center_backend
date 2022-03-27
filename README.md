@@ -2,8 +2,8 @@
 
 Backend trial of [iAR](https://www.iar-soft.com/) made in Laravel and deployed in Heroku. As it designed, all work was done in 2 hours. Therefor, the second exercise is incomplete. It will be completed in the next days.
 
-[Trial documentation](https://github.com/IgorMy/api_rest_serie_data_center_backend/blob/main/documentation/iAR_prueba_backend.pdf)
-[Database diagram](https://github.com/IgorMy/api_rest_serie_data_center_backend/blob/main/database_diagram/diagram.pdf)
+-   [Trial documentation](https://github.com/IgorMy/api_rest_serie_data_center_backend/blob/main/documentation/iAR_prueba_backend.pdf)
+-   [Database diagram](https://github.com/IgorMy/api_rest_serie_data_center_backend/blob/main/database_diagram/diagram.pdf)
 
 ## Routes
 
