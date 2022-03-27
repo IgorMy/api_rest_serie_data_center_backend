@@ -13,15 +13,16 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('users', function (Blueprint $table) {
+        Schema::create('series', function (Blueprint $table) {
             $table->id();
             $table->string('name')->nullable(false);
-            $table->string('email')->unique()->nullable(false);
-            $table->timestamp('email_verified_at')->nullable();
-            $table->string('password')->nullable(false);
-            $table->rememberToken();
+            $table->datetime('date');
+            $table->unsignedBigInteger('creator_id')->nullable(true);
             $table->timestamps();
+            //$table->foreign('creator_id')->references('creator')->on('id');
         });
+
+        DB::statement('ALTER TABLE series ADD CONSTRAINT series_creator_id_foreign FOREIGN KEY (creator_id) REFERENCES creator(id);');
     }
 
     /**
@@ -31,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('users');
+        Schema::dropIfExists('series');
     }
 };
