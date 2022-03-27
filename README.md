@@ -5,6 +5,10 @@ Backend trial of [iAR](https://www.iar-soft.com/) made in Laravel and deployed i
 -   [Trial documentation](https://github.com/IgorMy/api_rest_serie_data_center_backend/blob/main/documentation/iAR_prueba_backend.pdf)
 -   [Database diagram](https://github.com/IgorMy/api_rest_serie_data_center_backend/blob/main/database_diagram/diagram.pdf)
 
+## Migrations
+
+All done. Therefor, the database is controlled by the API.
+
 ## Routes
 
 -   Get all actor data.
