@@ -1,4 +1,4 @@
-<p align="center"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"><img src="https://seekvectorlogo.net/wp-content/uploads/2018/12/heroku-vector-logo.png" width="250"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="300"><img src="https://blog.phusion.nl/content/images/2016/07/Heroku.png" width="250"></p>
 
 Backend trial of (iAR)[https://www.iar-soft.com/] made in laravel and deployed in heroku. As it designed, all work was done in 2 hours. Therefor, the second excercize is incomplete. It will be completed in the next days.
 
