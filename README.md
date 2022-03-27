@@ -21,13 +21,14 @@ All done. Therefor, the database is controlled by the API.
 
 ```
    POST: https://api-rest-serie-data-center-bac.herokuapp.com/api/actor
-   POST DATA: {name:'actor_name'}
+   DATA: {name:'actor_name'}
 ```
 
 -   Update actor.
 
 ```
-   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/actor/{id}?name={name}
+   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/actor/{id}
+   DATA: {name:'actor_name'}
 ```
 
 -   Delete actor
