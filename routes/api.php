@@ -1,9 +1,8 @@
 <?php
 
-use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ActorController;
-
+use App\Http\Controllers\CreatorController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -16,7 +15,7 @@ use App\Http\Controllers\ActorController;
 */
 
 
-// 
+//
 /*
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
@@ -24,3 +23,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 */
 
 Route::resource('/actor', ActorController::class);
+Route::resource('/creator', CreatorController::class);
