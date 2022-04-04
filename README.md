@@ -11,6 +11,8 @@ All done. Therefor, the database is controlled by the API.
 
 ## Routes
 
+### Actors (Eloquent)
+
 -   Get all actor data.
 
 ```
@@ -31,9 +33,37 @@ All done. Therefor, the database is controlled by the API.
    DATA: {name:'actor_name'}
 ```
 
--   Delete actor
+-   Delete actor.
 
 ```
    DELETE: https://api-rest-serie-data-center-bac.herokuapp.com/api/actor/{id}
+
+```
+
+### Creator (Query Builder)
+-   Get all creator data.
+
+```
+   GET: https://api-rest-serie-data-center-bac.herokuapp.com/api/creator
+```
+
+-   Create a creator in the database.
+
+```
+   POST: https://api-rest-serie-data-center-bac.herokuapp.com/api/creator
+   DATA: {name:'actor_name'}
+```
+
+-   Update creator.
+
+```
+   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/creator/{id}
+   DATA: {name:'actor_name'}
+```
+
+-   Delete creator.
+
+```
+   DELETE: https://api-rest-serie-data-center-bac.herokuapp.com/api/creator/{id}
 
 ```
