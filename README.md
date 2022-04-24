@@ -29,8 +29,7 @@ All done. Therefor, the database is controlled by the API.
 -   Update actor.
 
 ```
-   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/actor/{id}
-   DATA: {name:'actor_name'}
+   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/actor/{id}?name=actor_name
 ```
 
 -   Delete actor.
@@ -57,13 +56,41 @@ All done. Therefor, the database is controlled by the API.
 -   Update creator.
 
 ```
-   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/creator/{id}
-   DATA: {name:'actor_name'}
+   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/creator/{id}?name=actor_name
 ```
 
 -   Delete creator.
 
 ```
    DELETE: https://api-rest-serie-data-center-bac.herokuapp.com/api/creator/{id}
+
+```
+
+### Series (raw querys)
+-   Get all series data.
+
+```
+   GET: https://api-rest-serie-data-center-bac.herokuapp.com/api/series
+```
+
+-   Create a serie in the database.
+
+```
+   POST: https://api-rest-serie-data-center-bac.herokuapp.com/api/series
+   DATA: {name:'serie_name',date:'dd/mm/yyyy',creator:creator_id}
+   - Creator is optional
+```
+
+-   Update serie.
+
+```
+   PUT/PATCH: https://api-rest-serie-data-center-bac.herokuapp.com/api/series/{id}?name=serie_name&date=dd/mm/yyyy&creator=creator_id
+   - Creator is optional
+```
+
+-   Delete serie.
+
+```
+   DELETE: https://api-rest-serie-data-center-bac.herokuapp.com/api/series/{id}
 
 ```

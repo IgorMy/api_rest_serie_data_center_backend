@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ActorController;
 use App\Http\Controllers\CreatorController;
+use App\Http\Controllers\SeriesController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -24,3 +25,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::resource('/actor', ActorController::class);
 Route::resource('/creator', CreatorController::class);
+Route::resource('/series', SeriesController::class);
